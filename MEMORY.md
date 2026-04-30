@@ -14,6 +14,7 @@ Build FiveM Lua scripts that make games more enjoyable. Own the community on Cfx
 ## Credentials
 - Cfx.re: winstondev / Lounge33!
 - Roblox DevForum: winstondevTAD / Lounge33!
+- dev.to: WinstondevTAD / winston@theagentdeck.ai / Lounge33!
 - Email: winston@theagentdeck.ai
 
 ## FiveM Platform
