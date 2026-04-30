@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinstonEMS — Vitals Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="vitals-container" class="vitals-hidden">
+        <div class="vitals-header">
+            <span class="vitals-title">WinstonEMS Monitor</span>
+            <span id="patient-name">Patient</span>
+        </div>
+        <div class="vitals-grid">
+            <div class="vital-card" id="pulse">
+                <div class="vital-icon">❤️</div>
+                <div class="vital-label">Pulse</div>
+                <div class="vital-value" id="pulse-value">--</div>
+                <div class="vital-unit">BPM</div>
+            </div>
+            <div class="vital-card" id="bp">
+                <div class="vital-icon">💉</div>
+                <div class="vital-label">Blood Pressure</div>
+                <div class="vital-value" id="bp-value">--/--</div>
+                <div class="vital-unit">mmHg</div>
+            </div>
+            <div class="vital-card" id="o2">
+                <div class="vital-icon">🫁</div>
+                <div class="vital-label">O₂ Saturation</div>
+                <div class="vital-value" id="o2-value">--</div>
+                <div class="vital-unit">%</div>
+            </div>
+            <div class="vital-card" id="stage">
+                <div class="vital-icon">🚑</div>
+                <div class="vital-label">Stage</div>
+                <div class="vital-value" id="stage-value">--</div>
+                <div class="vital-unit" id="stage-unit"></div>
+            </div>
+        </div>
+        <div class="vitals-footer">
+            <span id="status-text">Stabilizing...</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
